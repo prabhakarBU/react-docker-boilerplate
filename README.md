@@ -20,11 +20,11 @@ Let's download and install Docker using below link:
 
 Step 2: ( Let's go ahead and Create basic React app using command line and also just to make sure 
 it'll work before deploying to Docker , we could run it once on the local machine before deploying it to the Docker )
-''' > npx create-react-app react-docker-boilerplate '''
+` > npx create-react-app react-docker-boilerplate `
 We should have package.json to build and run the project.
-- Run ''' > npm install ''' to install all packages within node_modules folder that'll be added to your root directory.
-- Run ''' > npm run build ''' to compile and build.
-- Run ''' > npm run start ''' to start the app on port 3000.
+- Run ` > npm install ` to install all packages within node_modules folder that'll be added to your root directory.
+- Run ` > npm run build ` to compile and build.
+- Run ` > npm run start ` to start the app on port 3000.
 - Go to any browser of your like and type the following URL -> http://localhost:3000
 
 Step 3: ( Add Nginx )
